@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <input type="text" placeholder="user id" style="width: 170px; height: 30px; border-end-end-radius: 50%;"><br><br>
+
+        <input type="password" placeholder="password" > <br><br>
+        <button class="btn btn-primary" (click)="onToggleDetails()" >submit</button>
+        <!-- <p *ngIf="showSecret">secret password = rahul</p> -->
+        <div *ngFor="let logItem of log">{{logItem}}</div>
+
+
+        </div>
+    </div>
+</div>
+
